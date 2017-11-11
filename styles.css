@@ -1,0 +1,94 @@
+#header {
+  width: 70%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+section {
+  width: 70%;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 0px 20px 20px 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.section-header {
+  background-color: blue;
+  color: white;
+  padding: 7px 11px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+  font-weight: bold;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+input {
+  padding-top: 5px;
+  width: 100%;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 7px 11px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+header p {
+  font-size: 1.25em;
+  padding: 5px;
+}
+
+#employee-table {
+  width: 100%;
+/*  border-spacing: 10px 20px;
+  border-collapse: separate;*/
+}
+
+th {
+  padding: 5px 7px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  padding: 5px 7px;
+}
+
+#employee-table td:nth-child(3) {
+  text-align: center;
+}
+
+
+#employee-table td:nth-child(n+4) {
+  text-align: right;
+}
+
+input {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Employee Data Management</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+<header id="header">
+  <h1>Employee Data Management</h1>
+  <p>A Comprehensive Directory of Employee Billable Hours</p>
+</header>
+
+<section id="current-employees">
+  <div class="section-header">
+    <h2>Current Employees</h2>
+  </div>
+
+  <table id="employee-table">
+    <tr>
+      <th>Employee Name</th>
+      <th>Role</th>
+      <th>Start Date</th>
+      <th>Months Worked</th>
+      <th>Monthly Rate ($)</th>
+      <th>Total Billed ($)</th>
+    </tr>
+  </table>
+</section>
+
+<section id="add-employee">
+  <div class="section-header">
+    <h2>Add Employee</h2>
+  </div>
+
+  <form>
+    <label for="employee-name">Employee Name</label>
+    <input type="text" id="employee-name">
+    <label for="employee-role">Role</label>
+    <input type="text" id="employee-role">
+    <label for="employee-start-date">Start Date(DD/MM/YY - ex: 01/01/09)</label>
+    <input type="text" id="employee-start-date">
+    <label for="employee-monthly-rate">Monthly Rate</label>
+    <input type="text" id="employee-monthly-rate">
+    <button type="submit" id="submit-button">Submit</button>
+  </form>
+</section>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script src="moment.js"></script>
+<script src="timesheet.js"></script>
+
+</body>
+</html>
